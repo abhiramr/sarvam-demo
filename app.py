@@ -16,6 +16,7 @@ def main():
     st.markdown("References:")
     st.markdown("_1. [Sarvam API Documentation](https://docs.sarvam.ai/api-reference-docs/introduction)_")
     st.markdown("_2. [Endpoints](https://docs.sarvam.ai/api-reference-docs/endpoints)_")
+    st.markdown("_3. [Speech-To-Text](https://www.sarvam.ai/apis/speech-to-text)_")
     st.markdown("""---""")
 
     sarvam_key = st.text_input("Enter your Sarvam key. This is encrypted and will not be logged", type="password")
