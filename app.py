@@ -46,9 +46,9 @@ def main():
                 "inputs": [translated],
                 "target_language_code": pick_a_language,
                 "speaker": "meera",
-                "pitch": 1,
+                "pitch": 0.5,
                 "pace": 1,
-                "loudness": 1.5,
+                "loudness": 1.0,
                 "speech_sample_rate": 8000,
                 "enable_preprocessing": True,
                 "model": "bulbul:v1"
